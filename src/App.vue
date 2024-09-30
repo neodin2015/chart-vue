@@ -18,7 +18,7 @@ onMounted(async () => {
 </script>
 
 <template>
-	<VerticalChart v-for='chart in charts' :data='chart.dataset' :title='chart.title' />
+	<VerticalChart v-for='chart in charts' :quantity='chart.dataset' :name='chart.title' />
 </template>
 
 <style scoped>
